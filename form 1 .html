@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="form 1 .css">
+</head>
+
+<body>
+    <h1 id="heading">Registration Form</h1>
+    <form name="regform" onsubmit="return validateForm()" method="post" action="#">
+    <div>
+        <label for="firstName">First name</label>
+        <input type="text" name="fname" id="firstName" required>
+    </div>
+    <div>
+        <label for="lastName">Last name</label>
+        <input type="text" name="lname" id="lastName" required>
+    </div>
+    <div>
+        <label for="email">Email</label>
+        <input type="text" name="emailid" id="email" autocomplete="on" required>
+    </div>
+    <div>
+        <label for="mobileNumber">Mobile number</label>
+        <input type="text" name="mnumber" id="mobileNumber" required>
+    </div>
+    <div>
+        <label for="address">Address</label><br>
+        <textarea name="myaddress" id="address" cols="40" rows="4" autocomplete="on" required></textarea>
+    </div>
+    <div>
+        <label for="courses">Select your courses</label>      
+        <select type="text" name="subject" id="courses">
+            <option>BTECH</option>
+            <option>BBA</option>
+            <option>BCA</option>
+            <option>B.COM</option>
+            <option>MBA</option>
+        </select>
+    </div>
+    <div>
+        <label for="password">Password</label>
+        <input type="password" name="pword" id="password" required>
+ </div>
+    <div>
+        <label for="confirmpassword">Confirm password</label>
+        <input type="password" name="confirmpword" id="confirmpassword" required>
+   </div>
+    <div>
+        <button type="submit" id="submitbtn" onclick="validate()">Submit</button>
+        <button type="reset">Reset</button>
+    </div>
+    </form>
+    
+    <script text="javascript" src="form 1 .js"></script>
+</body>
+
+</html>

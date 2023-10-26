@@ -1,0 +1,60 @@
+body{
+    background-color: darkgrey;
+    font-family: 'Times New Roman', Times, serif;
+}
+#heading{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 0px;
+}
+form{
+    margin: 0 auto;
+    width: 30%; 
+    border: 2px solid transparent;
+    padding: 30px;
+    background-color: gainsboro;
+    text-align: center;
+}
+div{
+    padding: 5px;
+}
+label{
+    font-size: large;
+    font-weight: 550;
+}
+input{
+    width: 90%;
+    padding: 4px;
+    border-radius: 5px;
+    border: transparent;
+    margin-top: 5px;
+    font-size: 15px;
+}
+select{
+    width: 25%;
+    text-align: center;
+    font-size: 15px;
+    padding: 2px;
+    margin-top: 5px;
+    border: transparent;
+    margin-left: 20px;
+    border-radius: 5px;
+    width: fit-content;
+}
+textarea{
+    border: transparent;
+    width: 90%;
+    border-radius: 5px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+button{
+    background-color: black;
+    color: white;
+    font-weight:bolder;
+    font-size: 13px;
+    letter-spacing: 5px;
+    padding: 10px;
+    border: transparent;
+    margin-top: 20px;
+}
